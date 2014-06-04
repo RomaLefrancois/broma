@@ -1,0 +1,13 @@
+permalink: /articles/:categories/:title
+pygments: true
+markdown: kramdown
+
+config:
+  firstname: b
+  lastname: roma
+  title_prefix: "- Broma"
+  description: "Broma is a theme for the static site generator Jekyll"
+  ga_tag: "UA-51352543-2"
+  twitter: "RomaLefrancois"
+  github: "RomaLefrancois"
+  linkedin: "https://www.linkedin.com/pub/romain-lefrancois/50/456/7b9"

@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+}
+
+header {
+  padding: 15px 10px 0px 10px;
+}
+
+#name {
+  display: block;
+}
+
+#menu, #social-links {
+  display: none;
+}
+
+.cover {
+  height: 90px
+}
+
+.cover h1 {
+  font-size: 26px;
+  padding: 24px 10px 0px 10px;
+}
+
+.posts ul {
+  padding: 0px
+}
+
+.posts li {
+  font-size: 1.3em;
+}
+
+.posts small {
+  padding-top: 6px;
+}
+
+article h1 {
+  display: none;
+}
+
+footer {
+  width: 80%;
+}

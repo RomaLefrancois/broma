@@ -1,0 +1,412 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ===================== Global ===================== */
+
+body {
+  font-family: 'Open Sans';
+  color: #4c4c4c;
+  background: #ffffff;
+}
+
+a {
+  color: #00a5ea;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  -ms-transition: color .3s;
+  transition: color .3s
+}
+
+a:hover {
+  color: #0383c0;
+  text-decoration: none;
+}
+
+/* ===================== Header / Menu ===================== */
+
+header {
+  padding: 15px 20px 0px 20px;
+  height: 40px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+header a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+header ul {
+  padding: 2px 0;
+  margin: 0;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+}
+
+#name {
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+@media (max-width: 600px) {
+  #name {
+    display: none;
+  }
+}
+
+#menu {
+  font-weight: bold;
+  float: left;
+  text-transform: uppercase;
+}
+
+#social-links {
+  padding: 0;
+  float: right;
+}
+
+#social-links a {
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#social-links a:hover {
+  color: #fff;
+}
+
+#social-links a i {
+  font-size: 1.2em;
+}
+
+#social-links a.twitter {
+  background: #00aced;
+}
+
+#social-links a.linkedin {
+  background: #007bb6;
+}
+
+#social-links a.github {
+  background: #444;
+}
+
+/* ===================== Cover ===================== */
+
+.cover {
+  background-color: #63B3F8;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  box-shadow: inset 0px 180px rgba(0, 0, 0, .3);
+  text-align: center;
+}
+
+.cover h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+  padding: 50px 20px 10px 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.cover small {
+  font-size: 60%;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+/* ===================== Content ===================== */
+
+.container {
+  margin: 0px auto;
+  max-width: 700px;
+}
+
+section {
+  padding: 20px;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.posts ul {
+  margin: 0px;
+  padding: 0px 50px;
+}
+
+.posts li {
+  font-size: 1.5em;
+  list-style: none;
+  font-weight: 300;
+  padding: 5px 0px;
+}
+
+.posts small {
+  float: right;
+  font-size: 60%;
+  padding-top: 10px;
+  opacity: .7;
+}
+
+article img {
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article h1 small {
+  float: right;
+  font-size: 50%;
+  padding-top: 14px;
+  opacity: .3;
+  font-weight: normal;
+}
+
+article h3 {
+  margin-top: 30px;
+}
+
+article .content {
+  font-family: 'PT Serif', serif;
+  font-size: 19px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.gist {
+  font-size: 13px;
+}
+
+blockquote {
+  border-left: 5px solid #f0f0f0;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+/* ===================== Footer ===================== */
+
+footer {
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  padding-top: 30px;
+  max-width: 40%;
+  margin: 20px auto 50px auto;
+}
+
+footer .cheers {
+  margin-bottom: 30px;
+  opacity: .7;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
