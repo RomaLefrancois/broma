@@ -35,8 +35,8 @@ Open [_config.yml](_config.yml) and start editing the website configuration with
   title_prefix: "- John's website" # Will appears in the browser bar  
   description: "Your web site description"  
   ga_tag: "UA-XXXXXXXX-X"  # Your GA Tag
-  twitter: "RomaLefrancois" # Your Twitter username
-  github: "RomaLefrancois" # Your GitHub username
+  twitter: "johndoe" # Your Twitter username
+  github: "johndoe" # Your GitHub username
   linkedin: "https://www.linkedin.com/pub/johndoe"  # Your LinkedIn profile URL
 </pre>
 ### 3. Running locally
