@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "About me (Broma)"
-image:  /images/hello.jpg
+image:  /broma/images/hello.jpg
 ---
 
 Welcome to [Broma](http://romalefrancois.github.io/broma), the perfect companion to [Jekyll](http://jekyllrb.com), the popular static site generator.
