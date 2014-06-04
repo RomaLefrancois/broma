@@ -2,6 +2,12 @@
 
 An elegant, open source, fully responsive theme for [Jekyll](http://jekyllrb.com/). It includes lightweight styles and placeholder content to get you up and running with a simple blog in no time.
 
+### Posts List
+![Post list](https://cloud.githubusercontent.com/assets/2098871/3170120/04617e9a-ebb0-11e3-85b8-44fbc44fe7ff.png)
+### Post view 
+![Article](https://cloud.githubusercontent.com/assets/2098871/3170125/2fb65a3e-ebb0-11e3-8ee8-1051140f296b.png)
+
+
 ## Usage
 
 ### 1. Install Jekyll
