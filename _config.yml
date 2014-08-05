@@ -1,6 +1,6 @@
 baseurl: /broma
 permalink: /articles/:categories/:title
-pygments: true
+highlighter: true
 markdown: kramdown
 
 config:
