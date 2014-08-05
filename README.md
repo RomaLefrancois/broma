@@ -44,10 +44,10 @@ Open [_config.yml](_config.yml) and start editing the website configuration with
 To see your Jekyll site with Broma applied, start a Jekyll server. In Terminal, from `/broma` (or whatever your Jekyll site's root directory is named):
 
 ```bash
-$ jekyll serve --watch --baseurl ''
+$ jekyll serve --watch
 ```
 
-Open <http://localhost:4000> in your browser, and voilà. You're done.
+Open <http://localhost:4000/broma/> in your browser, and voilà. You're done.
 
 ## Author
 
