@@ -4,7 +4,7 @@ An elegant, open source, fully responsive theme for [Jekyll](http://jekyllrb.com
 
 ### Posts List
 ![Post list](https://cloud.githubusercontent.com/assets/2098871/3170120/04617e9a-ebb0-11e3-85b8-44fbc44fe7ff.png)
-### Post view 
+### Post view
 ![Article](https://cloud.githubusercontent.com/assets/2098871/3170125/2fb65a3e-ebb0-11e3-8ee8-1051140f296b.png)
 
 
@@ -15,7 +15,7 @@ An elegant, open source, fully responsive theme for [Jekyll](http://jekyllrb.com
 Broma is built for use with Jekyll, so naturally you'll need to install that. On Macs, it's rather straightforward:
 
 ```bash
-$ gem install jekyll
+$ gem install github-pages
 ```
 
 **Windows users:** Windows users have a bit more work to do, but luckily [@juthilo](https://github.com/juthilo) has your back with his [Run Jekyll on Windows](https://github.com/juthilo/run-jekyll-on-windows) guide.
