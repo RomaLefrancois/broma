@@ -10,8 +10,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }} {{ site.config.title_prefix }}</title>
-  <meta name="description" content="{{ site.config.description }}">
+  <title>{{ page.title }} {{ site.broma.title_prefix }}</title>
+  <meta name="description" content="{{ site.broma.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.min.css">
@@ -36,12 +36,12 @@
     <li><a href="{{ site.baseurl }}">Posts</a></li>
   </ul>
   <ul id="social-links">
-    <li><a href="{{site.config.linkedin}}" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-    <li><a href="https://github.com/{{site.config.github}}" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
-    <li><a href="https://twitter.com/{{site.config.twitter}}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="{{site.broma.linkedin}}" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="https://github.com/{{site.broma.github}}" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://twitter.com/{{site.broma.twitter}}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
   </ul>
   <div id="name">
-    <a href="{{ site.baseurl }}">@{{site.config.firstname}}<b>{{site.config.lastname}}</b></a>
+    <a href="{{ site.baseurl }}">@{{site.broma.firstname}}<b>{{site.broma.lastname}}</b></a>
   </div>
 </header>
 
@@ -69,7 +69,7 @@
     e.src = '//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e, r)
   }(window, document, 'script', 'ga'));
-  ga('create', '{{site.config.ga_tag}}');
+  ga('create', '{{site.broma.ga_tag}}');
   ga('send', 'pageview');
 </script>
 </body>

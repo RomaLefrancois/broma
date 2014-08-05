@@ -3,7 +3,7 @@ permalink: /articles/:categories/:title
 highlighter: true
 markdown: kramdown
 
-config:
+broma:
   firstname: b
   lastname: roma
   title_prefix: "- Broma"
