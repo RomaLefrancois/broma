@@ -1,9 +1,9 @@
 baseurl: /broma
 permalink: /articles/:categories/:title
-pygments: true
+highlighter: true
 markdown: kramdown
 
-config:
+broma:
   firstname: b
   lastname: roma
   title_prefix: "- Broma"
