@@ -53,7 +53,8 @@ Open <http://localhost:4000> in your browser, and voilà. You're done.
 
 **Romain Lefrancois**  
 <https://github.com/RomaLefrancois>  
-<https://twitter.com/RomaLefrancois>
+<https://twitter.com/RomaLefrancois>  
+<http://www.romainlefrancois.com>  
 
 
 ## License
