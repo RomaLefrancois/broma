@@ -49,6 +49,10 @@ $ jekyll serve --watch
 
 Open <http://localhost:4000/broma/> in your browser, and voilà. You're done.
 
+## Deployment
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)  
+Deploy your own instance of Broma to Heroku with a single click on this button.
+
 ## Author
 
 **Romain Lefrancois**  

@@ -1,0 +1,10 @@
+{
+  "name": "Broma - Jekyll theme",
+  "keywords": [
+    "jekyll",
+    "blog",
+    "static site"
+  ],
+  "repository": "https://github.com/RomaLefrancois/broma",
+  "success_url": "/broma/"
+}
