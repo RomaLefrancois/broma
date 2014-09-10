@@ -12,3 +12,8 @@ broma:
   twitter: "RomaLefrancois"
   github: "RomaLefrancois"
   linkedin: "https://www.linkedin.com/pub/romain-lefrancois/50/456/7b9"
+
+
+# Heroku Deployment
+# Exclude files that are used for deployment (in this case deploying to Heroku)
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, README.md]
