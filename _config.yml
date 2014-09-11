@@ -1,3 +1,6 @@
+name: Broma's blog
+description: A description for your blog
+url: http://broma.herokuapp.com/broma
 baseurl: /broma
 permalink: /articles/:categories/:title
 highlighter: true
