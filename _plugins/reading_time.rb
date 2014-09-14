@@ -10,7 +10,7 @@ module ReadingTimeFilter
 
 		words = input.split.size;
 		minutes = ( words / words_per_minute ).floor
-		minutes > 1 ? "<i class='fa fa-clock-o'></i> #{minutes} min read" : ""
+		minutes > 1 ? "<i class='icon-clock'></i> #{minutes} min read" : ""
 	end
 end
 
